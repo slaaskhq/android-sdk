@@ -20,7 +20,7 @@ public class Slaask {
     private String secretKey;
     private String randomToken;
     private String locale;
-    private String color = "blue";
+    private String color = "#e01865";
     private Context context;
 
     private Slaask(Context context, String apiKey, String secretKey) {

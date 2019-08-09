@@ -1,2 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.slaask.sdk"/>
+          package="com.slaask.sdk">
+
+    <application>
+        <activity
+                android:name=".ui.SlaaskActivity"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.NoTitleBar"/>
+    </application>
+
+</manifest>
