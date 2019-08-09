@@ -155,7 +155,7 @@ public class SlaaskViewFragment extends Fragment {
             }
         });
 
-        mWebView.loadUrl("https://xeno.app/sdk-views/android.html");
+        mWebView.loadUrl("https://cdn.slaask.com/sdk-views/slaask-android.html");
 
         load();
         return rootView;
